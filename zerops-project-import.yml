@@ -10,5 +10,5 @@ services:
     enableSubdomainAccess: true
 
   - hostname: db
-    type: postgres@16
+    type: postgresql@16
     mode: NON_HA
