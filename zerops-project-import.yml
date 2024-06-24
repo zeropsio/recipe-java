@@ -1,0 +1,14 @@
+project:
+  name: recipe-java
+  tags:
+    - zerops-recipe
+
+services:
+  - hostname: app
+    type: java@17
+    buildFromGit: https://github.com/zeropsio/recipe-java
+    enableSubdomainAccess: true
+
+  - hostname: db
+    type: postgres@16
+    mode: NON_HA

@@ -1,0 +1,14 @@
+zerops:
+  - setup: app
+    build:
+      base: java@17
+      buildCommands:
+        - ./mvnw clean install
+      deployFiles:
+        - target/recipe-1.0.0.jar
+    run:
+      base: java@17
+      ports:
+        - port: 8080
+          httpSupport: true
+      start: java -jar target/recipe-1.0.0.jar

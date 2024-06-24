@@ -1,0 +1,100 @@
+# Maven target directory
+/target/
+
+# Maven artifact metadata
+.mvn/timing.properties
+
+# Local Maven repository
+.m2/
+
+# Logs
+*.log
+*.out
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.target/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Linux
+*.swp
+
+# Windows
+Thumbs.db
+*.bak
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Spring Boot specific
+spring-boot-app.iml
+
+# Cache files for dependency managers
+**/node_modules/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# Zero-Installs
+.pnp.*
+.pnp
+
+# IDE directories
+/.idea/
+*.iml
+*.ipr
+*.iws
+
+# Zero Installs
+.pnp.*
+.pnp
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Docker
+Dockerfile
+docker-compose.yml
