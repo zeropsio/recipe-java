@@ -19,5 +19,5 @@ zerops:
       start: java -jar target/recipe-1.0.0.jar
       healthCheck:
         httpGet:
-          port: 8000
+          port: 8080
           path: /status
