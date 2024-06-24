@@ -35,7 +35,7 @@ Further considerations for running more complex, highly available Java productio
 <br/>
 
 ## Changes made over the default installation
-- Configure the application to [listen on all network interfaces](https://github.com/zeropsio/recipe-java/blob/main/src/main/resources/application.properties#L11) (`server.address=0.0.0.0`) to ensure it's accessible within the Zerops environment
+Configure the application to [listen on all network interfaces](https://github.com/zeropsio/recipe-java/blob/main/src/main/resources/application.properties#L11) (`server.address=0.0.0.0`) to ensure it's accessible within the Zerops environment
 
 <br/>
 <br/>
