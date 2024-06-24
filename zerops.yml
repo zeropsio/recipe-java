@@ -8,7 +8,16 @@ zerops:
         - target/recipe-1.0.0.jar
     run:
       base: java@17
+      envVariables:
+        DB_NAME: db
+        DB_HOST: db
+        DB_USER: db
+        DB_PASS: ${db_password}
       ports:
         - port: 8080
           httpSupport: true
       start: java -jar target/recipe-1.0.0.jar
+      healthCheck:
+        httpGet:
+          port: 8000
+          path: /status
