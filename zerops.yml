@@ -16,7 +16,7 @@ zerops:
       ports:
         - port: 8080
           httpSupport: true
-      start: java -jar target/recipe-1.0.0.jar
+      start: java -jar target/recipe-1.0.0.jar --debug
       healthCheck:
         httpGet:
           port: 8000
