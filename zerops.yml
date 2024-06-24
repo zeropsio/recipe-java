@@ -1,5 +1,5 @@
 zerops:
-  - setup: app
+  - setup: api
     build:
       base: java@17
       buildCommands:
